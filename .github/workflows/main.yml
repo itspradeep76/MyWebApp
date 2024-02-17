@@ -2,9 +2,9 @@ name: PaddyFirstWorkflow
 on: 
   workflow_dispatch:
   push:
-     paths:
-      - '**'
-      - '!.github/**'
+    # paths:
+     # - '**'
+     # - '!.github/**'
 jobs:
   build-job:
     name: Paddy world action
